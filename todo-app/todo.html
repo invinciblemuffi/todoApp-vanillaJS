@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div class="container-fluid todo-app--container">
+        <div class="row justify-content-center">
+            <section class="col-md-5 my-5">
+                <h1 class="my-4 text-center todo-title">TODO App with Vanilla JS</h1>
+                <div class="todo-input--container d-flex align-items-center">
+                    <input type="text" name="todoName" class="form-control" placeholder="Let's add some tasks...">
+                    <img id="addItemIcon" src="https://img.icons8.com/android/25/0000a0/plus.png" alt="Add" />
+                </div>
+                <small class="text-muted">Hint: press <i>Enter</i> key to add an item!</small>
+            </section>
+
+        </div>
+        <div class="row justify-content-center">
+            <section class="col-md-5">
+                <ul id="list-group" class="list-group"></ul>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="./todo.js"></script>
+
+</html>

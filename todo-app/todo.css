@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+body {
+  background: url("../assets/blob-haikei.svg") no-repeat;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  cursor: pointer;
+}
+
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus {
+  border-bottom: 2px solid rgb(214, 214, 214);
+  outline: none;
+}
+
+h1.todo-title {
+  color: darkorange;
+}
+
+.todo-app--container {
+  background: url("../assets/wave.svg") no-repeat;
+}
+
+.todo-input--container img {
+  margin-left: -2.7rem;
+}
+
+.list-group {
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+.list-group li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item--icons img:not(:last-of-type) {
+  margin-right: 0.5rem;
+}
